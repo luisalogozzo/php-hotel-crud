@@ -1,7 +1,7 @@
   <?php
 include __DIR__ . '/../database.php';
 
-if (empty($GET['id'])) {
+if (empty($_GET['id'])) {
   die('ID non esistente');
 }
 

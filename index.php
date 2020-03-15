@@ -1,5 +1,5 @@
 <?php
-include 'database.php';
+include 'server.php';
 // var_dump($rooms);
 include 'partials/header.php'
  ?>
