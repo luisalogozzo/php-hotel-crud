@@ -2,6 +2,9 @@
 include 'database.php';
 
 $roomid = $_POST["id"];
+
+$sql = "SELECT * FROM stanze WHERE `id` = $roomid";
+
 $sql = "DELETE FROM stanze WHERE `id` = $roomid";
 $result = $conn->query($sql);
 if ($result && $result->num_rows > 0) {
